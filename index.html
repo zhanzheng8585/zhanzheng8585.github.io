@@ -1,0 +1,503 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+  <title>Zheng Zhan's Homepage</title>
+
+  <meta name="author" content="Zheng Zhan">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.scrollzer.min.js"></script>
+  <script src="js/jquery.scrolly.min.js"></script>
+  <script src="js/skel.min.js"></script>
+  <script src="js/skel-layers.min.js"></script>
+
+  <script type="text/javascript">
+    function toggle_vis(id) {
+      var e = document.getElementById(id);
+      if (e.style.display == 'none')
+        e.style.display = 'inline';
+      else
+        e.style.display = 'none';
+    }
+  </script>
+
+  <!-- <script src="js/init.js"></script> -->
+  <script src="js/carousel.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<!--   <link rel="icon" type="image/png" href="images/xx.jpg"> -->
+
+
+<style type="text/css">
+    .carousel {
+      -webkit-transform: translate3d(0, 0, 0);
+      background: rgba(0, 0, 0, 0.85);
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      display: none;
+      z-index: 1;
+    }
+
+    .img-center-carousel {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0;
+      margin: auto;
+      width: 60%;
+      height: auto;
+    }
+
+    .carousel-close {
+      position: absolute;
+      top: 25px;
+      right: 100px;
+      padding: 0;
+      margin: auto;
+      width: 50px;
+      height: auto;
+    }
+
+    .research {
+      margin-bottom: 30px;
+    }
+
+    .research h4 {
+      float: left;
+    }
+
+    .research div {
+      text-align: end;
+      font-size: 0.9em;
+    }
+
+    .thumbnail {
+      width: 100%;
+      float: left;
+
+    }
+
+    .thumbnail-right {
+      margin-left: 35%;
+    }
+
+    #exp li {
+      margin-bottom: 50px;
+    }
+
+    .school-logo {
+      width: 6%;
+      float: left;
+    }
+
+    .school-text {
+      margin-left: 10%;
+      width: 60%;
+    }
+  </style>
+
+
+
+</head>
+
+<body>
+  <table
+    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr style="padding:0px">
+                <td style="padding:2.5%;width:63%;vertical-align:middle">
+                  <p style="text-align:center">
+                    <name>Zheng Zhan</name>
+                  </p>
+                  <p> I am a final year PhD student in Machine Learning at <a href="https://www.northeastern.edu/">Northeastern University</a>, under the supervision of
+                    Prof. <a href="https://web.northeastern.edu/yanzhiwang/#_ga=2.59245165.1964588443.1663640196-2055581220.1641240155">Yanzhi Wang</a>.
+                    I also work closely with Prof. <a href="https://ece.northeastern.edu/fac-ece/ioannidis/">Stratis Ioannidis</a>, 
+                    Prof. <a href="https://puzhao.info/">Pu Zhao</a>,
+                    and Prof. <a href="http://www.ece.neu.edu/fac-ece/jdy/">Jennifer G. Dy</a>. My research interests focus on Efficient Deep Learning, Generative AI, Efficient LLMs, and Continual Learning.
+                  </p>
+                  
+                  <mark>
+                    I will be on job market since 2024 Fall (graduate in 2025 Summer), and am actively looking for post-doctoral scholar and full-time research scientist positions. 
+                    please feel free to contact me (<a href="mailto:zhan.zhe@northeastern.edu">zhan.zhe@northeastern.edu</a>) if our research match.
+                  </mark>
+                  </p>
+                  
+                  <p style="text-align:center">
+                    <a href="mailto:zhan.zhe@northeastern.edu">Email</a> &nbsp/&nbsp
+                    <a href="https://scholar.google.com/citations?user=hwTuEX0AAAAJ&hl=en">Google Scholar</a>
+                    &nbsp/&nbsp
+                    <a href="https://www.linkedin.com/in/zheng-zhan-1ba889150/">LinkedIn</a> &nbsp/&nbsp
+                    <a href="Zheng_s_Resume.pdf">Resume</a>
+                  </p>
+
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading>Research</heading>
+                  <p>
+                  <ul>
+                    <li> Efficient Deep Learning: <a href="https://arxiv.org/abs/2401.06127">E<sup>2</sup>GAN</a> (ICML'24), <a href="https://arxiv.org/pdf/2209.09476.pdf">SparCL</a>(NeurIPS'22), 
+                      <a href="https://arxiv.org/pdf/2108.08910.pdf">ICCV'22</a>, <a href="https://github.com/wuyushuwys/LOTUS">LOTUS</a> (DAC'24), 
+                      <a href="https://ieeexplore.ieee.org/abstract/document/10247713">Condense</a> (DAC'23), <a href="https://dl.acm.org/doi/10.1145/3508352.3549379">All-in-One</a>(ICCAD'22).
+                    </li>
+                    <li> Generative AI: <a href="https://arxiv.org/abs/2401.06127">E<sup>2</sup>GAN</a> (ICML'24), <a href="https://arxiv.org/pdf/2108.08910.pdf">ICCV'22</a>. </li>
+                    <li> Efficient LLMs. </li>
+                    <li> Continual (Lifelong) learning: <a href="https://arxiv.org/pdf/2209.09476.pdf">SparCL</a> (NeurIPS'22), <a href="https://arxiv.org/pdf/2305.00380">DualHSIC</a> (ICML'23). </li>
+                  </ul>
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;text-align:left;">
+            <tbody>
+              <tr>
+                  <td style="width:100%;vertical-align:middle">
+                  <heading>Recent News</heading>
+                  <div class="news-container">
+                  <ul style=“list-style-type:square”>
+                    <li> <span class="date_badge">2024/05</span>: One first-authored paper E<sup>2</sup>GAN is accepted at <b> ICML 2024 </b>, code is available <a href="https://github.com/Yifanfanfanfan/Yifanfanfanfan.github.io/tree/main/e2gan">here</a>  </li>
+                    <li> <span class="date_badge">2024/02</span>: One first-authored paper LOTUS is accepted at <b> DAC 2024 </b>, code is available <a href="https://github.com/wuyushuwys/LOTUS">here</a>  </li>
+                    <li> <span class="date_badge">2023/08</span>: Our paper MOC is accepted at <b> ICCAD 2023 </b>  </li>
+                    <li> <span class="date_badge">2023/04</span>: One first-authored paper DualHISC is accepted at <b> ICML 2023 </b>, code is available <a href="https://github.com/zhanzheng8585/DualHSIC">here</a>  </li>
+                    <li> <span class="date_badge">2023/02</span>: One first-authored paper Condense is accepted at <b> DAC 2023 </b>  </li>
+                    <li> <span class="date_badge">2022/09</span>: One first-authored paper on efficient continual learning is accepted at <b> NeurIPS 2022 </b>, code is available <a href="https://github.com/neu-spiral/SparCL">here</a>  </li>
+                    <li> <span class="date_badge">2022/07</span>: One first-authored paper All-in-One is accepted at <b> ICCAD 2022 </b>  </li>
+                    <li> <span class="date_badge">2022/07</span>: Our paper on compiler-aware NAS for real-time super-resolution on mobile is accepted at <b> ECCV 2022 </b>, code is available <a href="https://github.com/wuyushuwys/compiler-aware-nas-sr">here</a>  </li>
+                    <li> <span class="date_badge">2021/11</span>: Our paper on automatic pruning scheme mapping is accepted at <b> TODAES </b>  </li>
+                    <li> <span class="date_badge">2021/09</span>: Our paper on memory-Economic sparse training is accepted at <b> NeurIPS 2021 </b>, code is available <a href="https://github.com/boone891214/MEST">here</a>  </li>
+                    <li> <span class="date_badge">2021/07</span>: One first-authored paper on NAS and pruning search for real-time super-resolution on mobile is accepted at <b> ICCV 2021 </b>  </li>
+                    <li> <span class="date_badge">2021/02</span>: Our paper NPAS is accepted at <b> CVPR 2021 </b>  </li>
+                    <li> <span class="date_badge">2021/02</span>: Our paper on weight pruning using reweighted optimization methods is accepted at <b> DAC 2021 </b>  </li>
+                    
+                    <li> <a href="javascript:toggle_vis('news')">Earlier news</a> </li>
+                    <div id="news" style="display:none">
+                      <li> 06/2020: Our paper on privacy-preserving-oriented DNN pruning is invited at <b> GLSVLSI 2021 </b>  </li>
+                      <li> 04/2019: Our paper Chic is accepted at <b> IWQoS 2019 </b>  </li>
+                      <li> 11/2018: Our paper on universal approximation property and equivalence is accepted at <b> AAAI 2019 </b>  </li>
+                      </ul>
+                    </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tr>
+              <td>
+                <heading>Selected Publications</heading> <br>
+                <a href="https://scholar.google.com/citations?user=hwTuEX0AAAAJ&hl=en">Google Scholar</a>
+                <font color="grey">for all publications</font>. * means equal contribution.
+              </td>
+            </tr>
+
+            <tr>
+              <td width="32%">
+                <img class="thumbnail" src="paper_images/e2gan.jpg" data-id="hbar-carousel"></img>
+                <div id="hbar-carousel" class="carousel">
+                  <img class="img-center-carousel" src="paper_images/e2gan.jpg" alt="">
+                  <a href="javascript:void(0)"><img src="images/close-transparent.png" alt=""
+                      data-carousel-id="hbar-carousel" class="carousel-close"></a>
+                </div>
+              </td>
+
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="">
+                  <papertitle>E<sup>2</sup>GAN: Efficient Training of Efficient GANs for Image-to-Image Translation</papertitle>
+                </a>
+                <br>Yifan Gong*, <b>Zheng Zhan*</b>, Qing Jin, Yanyu Li, Yerlan Idelbayev, Xian Liu, <br>Andrey Zharkov, Kfir Aberman, Sergey Tulyakov, Yanzhi Wang, Jian Ren<br>
+                <em>International Conference on Machine Learning (<b>ICML</b>), 2024. <br> </em>
+                [<a href="https://arxiv.org/abs/2401.06127">paper</a>] [<a href="https://www.youtube.com/watch?v=uGFWVT_qm9Q">demo</a>] 
+                [<a href="https://github.com/Yifanfanfanfan/Yifanfanfanfan.github.io/tree/main/e2gan">code</a>] [<a href="https://yifanfanfanfan.github.io/e2gan/">project</a>]
+
+                <br>
+                <p></p>
+                <p> E<sup>2</sup>GAN construct a lightweight GAN model and employ Low-Rank Adaptation (LoRA) with a simple yet effective rank search process, rather than fine-tuning the entire base model. 
+                  We also investigate the minimal amount of data necessary for fine-tuning, further reducing the overall training time. </p>
+              </td>
+            </tr>
+            
+            <tr>
+              <td width="32%">
+                <img class="thumbnail" src="paper_images/DualHSIC.jpg" data-id="hbar-carousel"></img>
+                <div id="hbar-carousel" class="carousel">
+                  <img class="img-center-carousel" src="paper_images/DualHSIC.jpg" alt="">
+                  <a href="javascript:void(0)"><img src="images/close-transparent.png" alt=""
+                      data-carousel-id="hbar-carousel" class="carousel-close"></a>
+                </div>
+              </td>
+
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="">
+                  <papertitle>DualHSIC: HSIC-Bottleneck and Alignment for Continual Learning</papertitle>
+                </a>
+                <br>
+                <b>Zheng Zhan*</b>, Zifeng Wang*, Yifan Gong, Yucai Shao, Stratis Ioannidis, Yanzhi Wang, Jennifer Dy<br>
+                <em>International Conference on Machine Learning (<b>ICML</b>), 2023. <br> </em>
+                [<a href="https://arxiv.org/pdf/2305.00380">paper</a>] [<a
+                  href="https://github.com/zhanzheng8585/DualHSIC">code</a>]
+
+                <br>
+                <p></p>
+                <p> DualHSIC presents a method to improve rehearsal based approach for continual learning. 
+                  The basic idea proposed here is to leverage inter-task relationships using two concepts related to the Hilbert Schmidt 
+                  independence criterion (HSIC). One component (HSIC-Bottleneck for Rehearsal (HBR)) 
+                  helps reduce interference between tasks and the other component (HSIC Alignment - HA) helps share task-invariant knowledge. </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td width="32%">
+                <img class="thumbnail" src="paper_images/Condense.jpg" data-id="hbar-carousel"></img>
+                <div id="hbar-carousel" class="carousel">
+                  <img class="img-center-carousel" src="paper_images/Condense.jpg" alt="">
+                  <a href="javascript:void(0)"><img src="images/close-transparent.png" alt=""
+                      data-carousel-id="hbar-carousel" class="carousel-close"></a>
+                </div>
+              </td>
+
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="">
+                  <papertitle>Condense: A Framework for Device and Frequency Adaptive Neural Network Models on the Edge</papertitle>
+                </a>
+                <br>
+                Yifan Gong*, Pu Zhao*, <b>Zheng Zhan*</b>, Yushu Wu, Chao Wu, Zhenglun Kong, Minghai Qin, Caiwen Ding, Yanzhi Wang<br>
+                <em>Design Automation Conference (<b>DAC</b>), 2023. <br> </em>
+
+                <p></p>
+                <p> Propose a two-level algorithm for obtaining subnets with arbitrary ratios in a single model with theoretical proof. Develop a 
+                  framework which leverages the DVFS and compression techniques to get multiple subnetworks in one neural network to lower the 
+                  variance of inference runtime for different hardware frequency levels. It’s a much more automatic framework. </p>
+              </td>
+            </tr>
+
+
+            <tr>
+              <td width="32%">
+                <img class="thumbnail" src="paper_images/sparcl.png" data-id="hbar-carousel"></img>
+                <div id="hbar-carousel" class="carousel">
+                  <img class="img-center-carousel" src="paper_images/sparcl.png" alt="">
+                  <a href="javascript:void(0)"><img src="images/close-transparent.png" alt=""
+                      data-carousel-id="hbar-carousel" class="carousel-close"></a>
+                </div>
+              </td>
+
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="http://arxiv.org/abs/2209.09476">
+                  <papertitle>SparCL: Sparse Continual Learning on the Edge</papertitle>
+                </a>
+                <br>
+                <b>Zheng Zhan*</b>, Zifeng Wang*, Yifan Gong, Geng Yuan, Wei Niu, Tong Jian,
+                Bin Ren, Stratis Ioannidis, Yanzhi Wang, Jennifer Dy<br>
+                <em>Neural Information Processing Systems (<b>NeurIPS</b>), 2022. <br> </em>
+                [<a href="https://arxiv.org/pdf/2209.09476.pdf">paper</a>] [<a
+                  href="https://github.com/neu-spiral/SparCL">code</a>]
+
+                <br>
+                <p></p>
+                <p> SparCL explores sparsity for efficient continual learning and achieves both training acceleration 
+                  and accuracy preservation through the synergy of three aspects: weight sparsity, data efficiency, and gradient sparsity. </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td width="32%">
+                <img class="thumbnail" src="paper_images/all_in_one.png" data-id="hbar-carousel"></img>
+                <div id="hbar-carousel" class="carousel">
+                  <img class="img-center-carousel" src="paper_images/all_in_one.png" alt="">
+                  <a href="javascript:void(0)"><img src="images/close-transparent.png" alt=""
+                      data-carousel-id="hbar-carousel" class="carousel-close"></a>
+                </div>
+              </td>
+
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="">
+                  <papertitle>All-in-One: A Highly Representative DNN Pruning Framework for Edge Devices with Dynamic Power Management</papertitle>
+                </a>
+                <br>
+                <b>Zheng Zhan*</b>, Yifan Gong*, Pu Zhao, Yushu Wu, Chao Wu, Caiwen Ding, Weiwen Jiang, Minghai Qin, Yanzhi Wang<br>
+                <em>International Conference on Computer-Aided Design (<b>ICCAD</b>), 2022. <br> </em>
+                [<a href="https://dl.acm.org/doi/10.1145/3508352.3549379">paper</a>]
+                
+                <p></p>
+                <p> All-in-One, a highly representative pruning framework to work with dynamic power management using DVFS. 
+                  The framework can use only one set of model weights and soft masks to represent multiple models of various 
+                  pruning ratios. By re-configuring the model to the corresponding pruning ratio for a specific execution frequency 
+                  (and voltage), we can keep the difference in speed performance under various execution frequencies as small as possible. </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td width="32%">
+                <img class="thumbnail" src="paper_images/eccv22.jpg" data-id="hbar-carousel"></img>
+                <div id="hbar-carousel" class="carousel">
+                  <img class="img-center-carousel" src="paper_images/eccv22.jpg" alt="">
+                  <a href="javascript:void(0)"><img src="images/close-transparent.png" alt=""
+                      data-carousel-id="hbar-carousel" class="carousel-close"></a>
+                </div>
+              </td>
+
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/pdf/2207.12577.pdf">
+                  <papertitle>Compiler-Aware Neural Architecture Search for On-Mobile Real-time Super-Resolution</papertitle>
+                </a>
+                <br>
+                Yushu Wu*, Yifan Gong*, Pu Zhao, Yanyu Li, <b>Zheng Zhan</b>, Wei Niu, Hao Tang, Minghai Qin, Bin Ren, Yanzhi Wang<br>
+                <em>European Conference on Computer Vision  (<b>ECCV</b>), 2022. <br> </em>
+                [<a href="https://arxiv.org/pdf/2207.12577.pdf">paper</a>] [<a
+                  href="https://github.com/wuyushuwys/compiler-aware-nas-sr">code</a>]
+                
+                <p></p>
+                <p> We propose a compiler-aware SR neural architecture search (NAS) framework that conducts depth search 
+                  and per-layer width search with adaptive SR blocks. A speed model incorporated with compiler optimizations is leveraged 
+                  to predict the inference latency of the SR block with various width configurations for faster convergence. </p>
+              </td>
+            </tr>
+
+<!--             <tr>
+              <td width="32%">
+                <img class="thumbnail" src="paper_images/todaes22.jpg" data-id="hbar-carousel"></img>
+                <div id="hbar-carousel" class="carousel">
+                  <img class="img-center-carousel" src="paper_images/todaes22.jpg" alt="">
+                  <a href="javascript:void(0)"><img src="images/close-transparent.png" alt=""
+                      data-carousel-id="hbar-carousel" class="carousel-close"></a>
+                </div>
+              </td>
+
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/pdf/2111.11581.pdf">
+                  <papertitle>Automatic Mapping of the Best-Suited DNN Pruning Schemes for Real-Time Mobile Acceleration</papertitle>
+                </a>
+                <br>
+                Yifan Gong*, Geng Yuan*, <b>Zheng Zhan</b>, Wei Niu, Zhengang Li, Pu Zhao, Yuxuan Cai, Sijia Liu, Bin Ren, Xue Lin, Xulong Tang, Yanzhi Wang<br>
+                <em>Transactions on Design Automation of Electronic Systems (<b>TODAES</b>), 2022. <br> </em>
+                [<a href="https://arxiv.org/pdf/2111.11581.pdf">paper</a>]
+                
+                <p></p>
+                <p> We propose a general, fine-grained structured pruning scheme and corresponding compiler optimizations that 
+                  are applicable to any type of DNN layer while achieving high accuracy and hardware inference performance. </p>
+              </td>
+            </tr> -->
+<!-- 
+            <tr>
+              <td width="32%">
+                <img class="thumbnail" src="paper_images/mest.jpg" data-id="hbar-carousel"></img>
+                <div id="hbar-carousel" class="carousel">
+                  <img class="img-center-carousel" src="paper_images/mest.jpg" alt="">
+                  <a href="javascript:void(0)"><img src="images/close-transparent.png" alt=""
+                      data-carousel-id="hbar-carousel" class="carousel-close"></a>
+                </div>
+              </td>
+
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2110.14032">
+                  <papertitle>MEST: Accurate and Fast Memory-Economic Sparse Training Framework on the Edge</papertitle>
+                </a>
+                <br>
+                Geng Yuan*, Xiaolong Ma*, Wei Niu, Zhengang Li, Zhenglun Kong, Ning Liu, Yifan Gong, <b>Zheng Zhan</b>, 
+                Chaoyang He, Qing Jin, Siyue Wang, Minghai Qin, Bin Ren, Yanzhi Wang, Sijia Liu, Xue Lin<br>
+                <em>Neural Information Processing Systems (<b>NeurIPS</b>), 2021. <br> </em>
+                [<a href="https://arxiv.org/pdf/2110.14032.pdf">paper</a>] [<a
+                  href="https://github.com/boone891214/MEST">code</a>]
+                <font color=red> (Spotlight) </font> <br> 
+                
+                <p></p>
+                <p> The proposed MEST framework consists of enhancements by Elastic Mutation (EM) and Soft Memory Bound (&S) that 
+                  ensure superior accuracy at high sparsity ratios. On top of that, we proposes
+                  to employ data efficiency for further acceleration of sparse training. </p>
+              </td>
+            </tr> -->
+
+            <tr>
+              <td width="32%">
+                <img class="thumbnail" src="paper_images/iccv21.jpg" data-id="hbar-carousel"></img>
+                <div id="hbar-carousel" class="carousel">
+                  <img class="img-center-carousel" src="paper_images/iccv21.jpg" alt="">
+                  <a href="javascript:void(0)"><img src="images/close-transparent.png" alt=""
+                      data-carousel-id="hbar-carousel" class="carousel-close"></a>
+                </div>
+              </td>
+
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/pdf/2108.08910.pdf">
+                  <papertitle>Achieving on-Mobile Real-Time Super-Resolution with Neural Architecture and Pruning Search</papertitle>
+                </a>
+                <br>
+                <b>Zheng Zhan*</b>, Yifan Gong*, Pu Zhao*, Geng Yuan, Wei Niu, Yushu Wu, Tianyun Zhang, Malith Jayaweera, David Kaeli, Bin Ren, Xue Lin, Yanzhi Wang<br>
+                <em>International Conference on Computer Vision (<b>ICCV</b>), 2021. <br> </em>
+                [<a href="https://arxiv.org/pdf/2108.08910.pdf">paper</a>]
+                
+                <p></p>
+                <p> We proposes to use neural architecture search and network pruning to find a highly efficient network
+                  for image super-resolution. we are the first to achieve real-time SR inference (with only tens of milliseconds per frame) 
+                  for implementing 720p resolution with competitive perceptual performance on mobile platforms. </p>
+              </td>
+            </tr>
+
+                
+            <tr>
+              <td width="32%">
+                <img class="thumbnail" src="paper_images/AAAI19.jpg" data-id="hbar-carousel"></img>
+                <div id="hbar-carousel" class="carousel">
+                  <img class="img-center-carousel" src="paper_images/AAAI19.jpg" alt="">
+                  <a href="javascript:void(0)"><img src="images/close-transparent.png" alt=""
+                      data-carousel-id="hbar-carousel" class="carousel-close"></a>
+                </div>
+              </td>
+
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://dl.acm.org/doi/pdf/10.1609/aaai.v33i01.33015369">
+                  <papertitle>Universal Approximation Property and Equivalence of Stochastic Computing-Based Neural Networks and Binary Neural Networks</papertitle>
+                </a>
+                <br>
+                Yanzhi Wang, <b>Zheng Zhan</b>, Liang Zhao, Jian Tang, Siyue Wang, Jiayu Li, Bo Yuan, Wujie Wen, Xue Lin<br>
+                <em>AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2019. <br> </em>
+                [<a href="https://dl.acm.org/doi/pdf/10.1609/aaai.v33i01.33015369">paper</a>]
+                
+                <p></p>
+                <p> We prove that the ”ideal” SCNNs and BNNs satisfy the universal approximation property with probability 1 (due to 
+                  the stochastic behavior), we further prove that SCNNs and BNNs exhibit the same energy complexity.</p>
+              </td>
+            </tr>
+                
+          </table>
+
+            <p align="right">
+              Template Credit: <a href="https://jonbarron.info/">Jon Barron</a>
+            </p>
+
+          </table> <!--  Intro + Publications -->
+
+
+
+        </td>
+      </tr>
+  </table>
+  <!--main text-->
+
+</body>
+
+</html>
