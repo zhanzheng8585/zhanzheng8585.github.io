@@ -4,124 +4,44 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-
   <title>Zheng Zhan's Homepage</title>
 
   <meta name="author" content="Zheng Zhan">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery.scrollzer.min.js"></script>
-  <script src="js/jquery.scrolly.min.js"></script>
-  <script src="js/skel.min.js"></script>
-  <script src="js/skel-layers.min.js"></script>
 
-  <script type="text/javascript">
-    function toggle_vis(id) {
-      var e = document.getElementById(id);
-      if (e.style.display == 'none')
-        e.style.display = 'inline';
-      else
-        e.style.display = 'none';
-    }
-  </script>
-
-  <!-- <script src="js/init.js"></script> -->
-  <script src="js/carousel.js"></script>
-
-  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-<!--   <link rel="icon" type="image/png" href="images/xx.jpg"> -->
-
-
-<style type="text/css">
-    .carousel {
-      -webkit-transform: translate3d(0, 0, 0);
-      background: rgba(0, 0, 0, 0.85);
-      position: fixed;
-      right: 0;
-      bottom: 0;
-      min-width: 100%;
-      min-height: 100%;
-      width: auto;
-      height: auto;
-      display: none;
-      z-index: 1;
-    }
-
-    .img-center-carousel {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      padding: 0;
-      margin: auto;
-      width: 60%;
-      height: auto;
-    }
-
-    .carousel-close {
-      position: absolute;
-      top: 25px;
-      right: 100px;
-      padding: 0;
-      margin: auto;
-      width: 50px;
-      height: auto;
-    }
-
-    .research {
-      margin-bottom: 30px;
-    }
-
-    .research h4 {
-      float: left;
-    }
-
-    .research div {
-      text-align: end;
-      font-size: 0.9em;
-    }
-
-    .thumbnail {
-      width: 100%;
-      float: left;
-
-    }
-
-    .thumbnail-right {
-      margin-left: 35%;
-    }
-
-    #exp li {
-      margin-bottom: 50px;
-    }
-
-    .school-logo {
-      width: 6%;
-      float: left;
-    }
-
-    .school-text {
-      margin-left: 10%;
-      width: 60%;
-    }
-  </style>
-
-
-
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
 </head>
+
+
+<style>
+  /* Set the styles for the table */
+  table {
+    width: 100%; /* Set the table width to 100% to occupy the full available width */
+  }
+
+  /* Apply margin to the list items (li) */
+  li {
+    margin-bottom: 2px; /* Adjust the desired vertical space between list items */
+  }
+</style>
+
 
 <body>
   <table
-    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
       <tr style="padding:0px">
         <td style="padding:0px">
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+          <!-- Bio -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;text-align:justify;">
             <tbody>
               <tr style="padding:0px">
-                <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <!-- Bio text -->
+                <td class='td_bio_text'>
                   <p style="text-align:center">
                     <name>Zheng Zhan</name>
                   </p>
@@ -137,6 +57,7 @@
                     please feel free to contact me (<a href="mailto:zhan.zhe@northeastern.edu">zhan.zhe@northeastern.edu</a>) if our research match.
                   </mark>
                   </p>
+
                   
                   <p style="text-align:center">
                     <a href="mailto:zhan.zhe@northeastern.edu">Email</a> &nbsp/&nbsp
@@ -171,11 +92,14 @@
             </tbody>
           </table>
 
+
+
+          <!-- News -->
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;text-align:left;">
             <tbody>
               <tr>
-                  <td style="width:100%;vertical-align:middle">
+                <td style="width:100%;vertical-align:middle">
                   <heading>Recent News</heading>
                   <div class="news-container">
                   <ul style=“list-style-type:square”>
@@ -192,29 +116,30 @@
                     <li> <span class="date_badge">2021/07</span>: One first-authored paper on NAS and pruning search for real-time super-resolution on mobile is accepted at <b> ICCV 2021 </b>  </li>
                     <li> <span class="date_badge">2021/02</span>: Our paper NPAS is accepted at <b> CVPR 2021 </b>  </li>
                     <li> <span class="date_badge">2021/02</span>: Our paper on weight pruning using reweighted optimization methods is accepted at <b> DAC 2021 </b>  </li>
-                    
-                    <li> <a href="javascript:toggle_vis('news')">Earlier news</a> </li>
-                    <div id="news" style="display:none">
-                      <li> 06/2020: Our paper on privacy-preserving-oriented DNN pruning is invited at <b> GLSVLSI 2021 </b>  </li>
-                      <li> 04/2019: Our paper Chic is accepted at <b> IWQoS 2019 </b>  </li>
-                      <li> 11/2018: Our paper on universal approximation property and equivalence is accepted at <b> AAAI 2019 </b>  </li>
-                      </ul>
-                    </div>
+                  </ul>
+                  </div>
                 </td>
               </tr>
             </tbody>
           </table>
 
-          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-            <tr>
-              <td>
-                <heading>Selected Publications</heading> <br>
-                <a href="https://scholar.google.com/citations?user=hwTuEX0AAAAJ&hl=en">Google Scholar</a>
-                <font color="grey">for all publications</font>. * means equal contribution.
-              </td>
-            </tr>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td>
+                  <heading>Selected Publications</heading> <br>
+                  <a href="https://scholar.google.com/citations?user=hwTuEX0AAAAJ&hl=en">Google Scholar</a>
+                  <font color="grey">for all publications</font>. * means equal contribution.
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
-            <tr>
+          
+          <table class='table_projects'>
+            <tbody>
+              
+                          <tr>
               <td width="32%">
                 <img class="thumbnail" src="paper_images/e2gan.jpg" data-id="hbar-carousel"></img>
                 <div id="hbar-carousel" class="carousel">
@@ -482,21 +407,52 @@
                   the stochastic behavior), we further prove that SCNNs and BNNs exhibit the same energy complexity.</p>
               </td>
             </tr>
-                
+
+
+
+  
+            </tbody>
+          </table>
+          
+
+
+          <!-- Professional Services -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="td-left">
+                  <heading>Professional Services</heading>
+                  <ul style=“list-style-type:square;”>
+                  <li><b>Conference Reviewer</b> - CVPR'24, ICML'24, ICLR'24, NeurIPS'23,24, AAAI'22, <i>etc</i>.</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
           </table>
 
-            <p align="right">
-              Template Credit: <a href="https://jonbarron.info/">Jon Barron</a>
-            </p>
-
-          </table> <!--  Intro + Publications -->
-
-
-
+          
+          <!-- End of Webpage -->
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;text-align:justify;">
+            <tbody>
+              <tr>
+                <td style="padding:0px">
+                  <br>
+                  <p style="text-align:center;font-size:small;">
+                    (This webpage template is stolen from <a href="https://jonbarron.info/" style="font-size: small">Jon Barron</a>.)
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        
         </td>
       </tr>
+    </tbody>
   </table>
-  <!--main text-->
+
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=U-QrHQYlYWMu0cG0M0Eo37wKSkKKLRkYr4Mx18EP-t4'>
+</script>
 
 </body>
 
